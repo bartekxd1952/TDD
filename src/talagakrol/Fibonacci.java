@@ -4,6 +4,11 @@ import java.math.BigInteger;
 
 public class Fibonacci {
 
+	/**
+	 * 
+	 * @param index - term of Fibonacci sequence
+	 * @return - value of Fibonacci sequence
+	 */
 	public static BigInteger getElemntLoop(int index) {
 
 		if (index < 1)
